@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+table {
+  border: 1px solid;
+  width: 400px;
+  overflow: hidden;
+}
+
+tr:hover {
+  background: gray;
+}
+
+tr td {
+  border: 1px solid;
+}
+
+tr td:first-child {
+  position:relative;
+}
+
+a:before {
+  content: '';
+  position:absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  width: 400px;
+}

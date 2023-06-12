@@ -14,7 +14,9 @@
 <td><a href="SearchEmploy.jsp"><input type="button" value="Search Employ"/></a></td>
 </tr>
 <tr align="center">
-<td><a href=AddEmploy.jsp><input type="button" value="Add Employ"/></a></td>
+<td>
+    <a href=AddEmploy.jsp><input type="button" value="Add Employ"/></a>
+ </td>
 </tr>
 </table>
 </form>
